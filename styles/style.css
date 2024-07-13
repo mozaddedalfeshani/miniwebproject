@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  margin: 0px;
+}
+header {
+  background-color: hsla(347, 74%, 67%, 0.275);
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+header > div {
+  width: 50%;
+}
+
+.div1 h1 {
+  font-size: 80px;
+  font-weight: 800;
+  font-family: "Lato", sans-serif;
+}
+.div1 p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #272727;
+}
+.div1 {
+  padding-left: 240px;
+  padding-top: 50px;
+}
+
+.div1 button {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #e55473;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Lato", sans-serif;
+}
+
+.div2 img {
+  padding-right: 240px;
+  padding-top: 50px;
+  height: 800px;
+  width: 635px;
+}
+
+/*  */
+/* next section  */
+/*  */
+
+.featuredSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuredSectionTitle {
+  width: 592px;
+  height: 132px;
+  margin: 178px 0px 48px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.featuredSectionTitle h1 {
+  font-family: "Lato", sans-serif;
+}
+.featuredSectionTitle p {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+.imageDiv {
+  display: flex;
+  flex-direction: row;
+}
+.imageDiv img {
+  padding: 110px 78px 0px 76px;
+  height: 428px;
+  width: 311px;
+}
+.imageDivCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sizeDiv {
+  height: 605px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sizeDiv p {
+  font-family: "Loto", sans-serif;
+  font-size: 24 px;
+  font-weight: bold;
+}
+.imageDiv1 {
+  height: 538px;
+
+  width: inherit;
+  background-color: rgba(167, 33, 98, 0.15);
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+}
+.imageDiv2 {
+  height: 538px;
+
+  width: inherit;
+  background-color: rgba(5, 151, 160, 0.15);
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  margin-left: 10px;
+}
+.imageDiv3 {
+  height: 538px;
+
+  width: inherit;
+  background-color: rgba(71, 125, 17, 0.15);
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  margin-left: 10px;
+}
+
+.imageDiv img {
+  height: 428px;
+  width: 310px;
+}
+/*  */
+/* Support div */
+/*  */
+
+.supportDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(39, 39, 39, 0.12);
+  height: 320px;
+  width: 1440px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.supportDiv div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 372px;
+  height: 127px;
+}
+.supportDiv img {
+  height: 88px;
+  width: 88px;
+}
+.supportDiv div > h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+.supportDiv div > p {
+  font-family: 24px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+}
+
+/*  */
+/* Offer Section */
+/*  */
+
+.offerDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 620px;
+  background-color: rgba(229, 84, 115, 0.05);
+}
+.divT {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 240px;
+  flex-direction: column;
+}
+.divT2 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+  /* border: 2px solid black; */
+  flex-direction: column;
+
+  padding-left: 50px;
+}
+
+.offerDiv div h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+.offerDiv div p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  width: 594px;
+}
+.offerDiv .div2 img {
+  height: 420px;
+  width: 318px;
+}
+
+.offerDiv .divT2 img {
+  width: 318px; /* Adjust the width as needed */
+  height: 420px;
+}
+
+.offerDiv .divT button {
+  background-color: rgba(229, 84, 115, 1);
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 20;
+  font-weight: bold;
+  width: 155px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+}
+
+/*  */
+/* instagram section div */
+/*  */
+
+.instagramSection {
+  width: 1440px;
+  height: 576px;
+  margin-top: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+}
+
+.instagramSection div > h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+  font-family: "Lato", sans-serif;
+}
+
+.instagramSection div > p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  width: 594px;
+  text-align: center;
+  height: 60px;
+}
+
+.instagramSection div img {
+  width: 342px;
+  height: 392px;
+  border: 2px;
+}
+
+/*  */
+/* last section part */
+/*  */
+
+.lastSection {
+  background-image: url("../Assets/Rectangle\ 9.png");
+  width: 1440px;
+  height: 449px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.lastSection .divv {
+  display: flex;
+  align-items: center;
+  line-height: 0px;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.lastSection div > h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+.lastSection div > p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+}
+.lastSection input {
+  width: 700px;
+  height: 64px;
+  font-family: "Loto", sans-serif;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+}
+.lastSection button {
+  height: 64px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  width: 150px;
+  border: none;
+  color: white;
+  padding: 0px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: rgba(229, 84, 115, 1);
+}
+
+/*  */
+/* Fotter */
+/*  */
+
+footer {
+  height: 449px;
+  width: 100%;
+  background-color: rgba(17, 16, 16, 1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Lato", sans-serif;
+  height: 58px;
+}
+footer p {
+  color: white;
+  font-size: 18px;
+  color: white;
+  width: 625px;
+  height: 60px;
+  text-align: center;
+
+  font-family: "Lato", sans-serif;
+}
+footer h6 {
+  font-size: 16px;
+  line-height: 0px;
+  font-family: "Lato", sans-serif;
+}
